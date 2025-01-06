@@ -49,7 +49,7 @@ function App() {
         <center>
           {user ? (<div>
             <h1>Welcome to Home Page </h1>
-            <button onClick={() =>auth.signOut()} className='signout-btn'>Sign Out <FiLogOut size={21} style={{ marginLeft: '3px' }} /></button>
+            <button onClick={() =>auth.signOut()} className='signout-btn'>Sign Out <FiLogOut size={21} style={{ marginLeft: '2px' }} /></button>
           </div>) : (<div className="App">
             <button onClick={signInWithGoogle} className='google-signin-btn'>
             Sign in with Google <FcGoogle size={21} style={{ marginLeft: '2px' }}/></button>
