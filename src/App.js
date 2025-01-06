@@ -52,7 +52,7 @@ function App() {
             <button onClick={() =>auth.signOut()} className='signout-btn'>Sign Out <FiLogOut size={20} style={{ marginLeft: '3px' }} /></button>
           </div>) : (<div className="App">
             <button onClick={signInWithGoogle} className='google-signin-btn'>
-            Sign in with Google <FcGoogle size={20} style={{ marginLeft: '3px' }}/></button>
+            Sign in with Google <FcGoogle size={21} style={{ marginLeft: '3px' }}/></button>
           </div>)}
         </center>
       </div>
